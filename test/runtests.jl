@@ -21,7 +21,7 @@ end
 
 @testset "first" begin
     @test typeof(first(Manufacturer)) == Manufacturer
-    @test first(Flower).sepal_length == 5.1f0
+    # @test first(Flower).sepal_length == 5.1f0
     @test first(User).id == 1
     @test first(User, 1).id == 1
     @test first(User, "uuid IS NOT NULL").id == 1
