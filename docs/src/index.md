@@ -156,7 +156,7 @@ destroy
 
 ## Data sources
 
-Relationals.jl supports MySQL abd SQLite files as data sources. The [`@source`](@ref) macro configures the data source connection.
+Relationals.jl supports MySQL abd SQLite files as data sources. The [`@source`](@ref) macro configures the data source connection. 
 
 ```@docs
 @source
