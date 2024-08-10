@@ -1,7 +1,7 @@
 # Relationals.jl
 ### Simple, fast access to relational data sources. Inspired by Rails ActiveRecord.
 
-Works with MySQL/SQLite/PostgreSQL (any DB APIs listed [here](https://juliadatabases.org/)) and CSV files. Supports querying, but does not yet support writing to data sources.
+Works with MySQL/SQLite/PostgreSQL (any DB APIs listed [here](https://juliadatabases.org/)). Supports querying, but does not yet fully support writing to data sources.
 
 
 ## Basic Usage
