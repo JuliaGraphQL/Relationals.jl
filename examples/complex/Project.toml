@@ -1,0 +1,5 @@
+[deps]
+DBInterface = "a10d1c49-ce27-4219-8d33-6db1a4562965"
+MySQL = "39abe10b-433b-5dbd-92d4-e302a9df00cd"
+Relationals = "8e30347d-170e-4113-b451-0c6224eb738a"
+SQLite = "0aa819cd-b072-5ff4-a722-6bc24af294d9"
