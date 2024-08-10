@@ -1,8 +1,3 @@
-"""
-    scope(relational_type::Symbol, conds) 
-
-    scope macro - todo
-"""    
 macro scope(relational_type::Symbol, conds::Expr)
     quote
         function Relationals.getdefaultscope(

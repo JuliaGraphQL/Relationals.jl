@@ -162,6 +162,30 @@ Relationals.jl supports MySQL abd SQLite files as data sources. The [`@source`](
 @source
 ```
 
+```@docs
+tablename
+```
+
+```@docs
+getconnection
+```
+
+```@docs
+conn
+```
+
+```@docs
+count
+```
+
+```@docs
+updatemany
+```
+
+```@docs
+@showsql
+```
+
 ## Relational macros
 
 The [`@has_many`](@ref) and [`@belongs_to`](@ref) configure one-to-many and many-to-one relationships, respectively.
